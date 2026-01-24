@@ -1,0 +1,26 @@
+[
+  {
+    "guid": "497b3bbf-6b35-4ab3-9410-fb507b2be833",
+    "name": "JellyfinDownloader",
+    "description": "Orchestrates media downloads by bridging Jellyfin with the JellyDL service.",
+    "overview": "Enable users to download media files (movies, series, etc.) in a simple and integrated manner.",
+    "owner": "JellyfinDownloader",
+    "category": "Download",
+    "versions": [
+      {
+        "version": "1.0.1",
+        "changelog": "Initial release of JellyfinDownloader plugin.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.1.zip",
+        "checksum": ""
+      },
+      {
+        "version": "1.0.2",
+        "changelog": "\\n### Added\\n- Initial release of JellyfinDownloader plugin.\\n- Integration with JellyDL API.\\n- Download monitoring interface with real-time updates.\\n- Folder picker for selecting download destinations.\\n- Support for multiple download links submission.\\n- Integration with Plugin Pages and File Transformation plugins.\\n- Configuration page for server URL, API Key, and security paths.\\n- Folder creation and safe deletion within the folder picker.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.2.zip",
+        "checksum": ""
+      }
+    ]
+  }
+]
