@@ -8,6 +8,13 @@
     "category": "Download",
     "versions": [
       {
+        "version": "1.0.8",
+        "changelog": "Please consult the releases page of the private repository for the full changelog.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.8.zip",
+        "checksum": "dd7edf0cfb9ac31bdc4f5e5027c30392"
+      },
+      {
         "version": "1.0.7",
         "changelog": "Please consult the releases page of the private repository for the full changelog.",
         "targetAbi": "10.11.0.0",
