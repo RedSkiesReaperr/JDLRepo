@@ -8,6 +8,13 @@
     "category": "Download",
     "versions": [
       {
+        "version": "1.0.5",
+        "changelog": "\\r\\n### Fixed\\r\\n- Updated release workflow to prepend new versions in `manifest.json` (fixing default version selection in Jellyfin).\\r\\n- Improved changelog formatting in `manifest.json` by using `\\r\\n` line endings.\\r\\n\\r\\n### Changed\\r\\n- Switched distribution strategy to a hybrid Public/Private model using a secondary public repository (`JDLRepo`).\\r\\n- Updated release workflow to automatically publish to the public repository.\\r\\n- Removed local manifest server (docker-compose) and local releases folder.\\r\\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.5.zip",
+        "checksum": ""
+      },
+      {
         "version": "1.0.4",
         "changelog": "\\n### Changed\\n- Switched distribution strategy to a hybrid Public/Private model using a secondary public repository (`JDLRepo`).\\n- Updated release workflow to automatically publish to the public repository.\\n- Removed local manifest server (docker-compose) and local releases folder.\\n",
         "targetAbi": "10.11.0.0",
