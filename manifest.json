@@ -8,17 +8,10 @@
     "category": "Download",
     "versions": [
       {
-        "version": "1.0.1",
-        "changelog": "Initial release of JellyfinDownloader plugin.",
+        "version": "1.0.4",
+        "changelog": "\\n### Changed\\n- Switched distribution strategy to a hybrid Public/Private model using a secondary public repository (`JDLRepo`).\\n- Updated release workflow to automatically publish to the public repository.\\n- Removed local manifest server (docker-compose) and local releases folder.\\n",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.1.zip",
-        "checksum": ""
-      },
-      {
-        "version": "1.0.2",
-        "changelog": "\\n### Added\\n- Initial release of JellyfinDownloader plugin.\\n- Integration with JellyDL API.\\n- Download monitoring interface with real-time updates.\\n- Folder picker for selecting download destinations.\\n- Support for multiple download links submission.\\n- Integration with Plugin Pages and File Transformation plugins.\\n- Configuration page for server URL, API Key, and security paths.\\n- Folder creation and safe deletion within the folder picker.",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.2.zip",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.4.zip",
         "checksum": ""
       },
       {
@@ -29,10 +22,17 @@
         "checksum": ""
       },
       {
-        "version": "1.0.4",
-        "changelog": "\\n### Changed\\n- Switched distribution strategy to a hybrid Public/Private model using a secondary public repository (`JDLRepo`).\\n- Updated release workflow to automatically publish to the public repository.\\n- Removed local manifest server (docker-compose) and local releases folder.\\n",
+        "version": "1.0.2",
+        "changelog": "\\n### Added\\n- Initial release of JellyfinDownloader plugin.\\n- Integration with JellyDL API.\\n- Download monitoring interface with real-time updates.\\n- Folder picker for selecting download destinations.\\n- Support for multiple download links submission.\\n- Integration with Plugin Pages and File Transformation plugins.\\n- Configuration page for server URL, API Key, and security paths.\\n- Folder creation and safe deletion within the folder picker.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.4.zip",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.2.zip",
+        "checksum": ""
+      },
+      {
+        "version": "1.0.1",
+        "changelog": "Initial release of JellyfinDownloader plugin.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.0.1.zip",
         "checksum": ""
       }
     ]
