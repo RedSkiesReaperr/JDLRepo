@@ -8,6 +8,13 @@
     "category": "Download",
     "versions": [
       {
+        "version": "1.6.1",
+        "changelog": "### Fixed\n- Installed version now correctly reflects the release tag instead of always showing `1.0.0.0`.\n- Release changelog is now extracted from `CHANGELOG.md` instead of a static placeholder message.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_1.6.1.zip",
+        "checksum": "76a35232d42feebe03541cc7772da26c"
+      },
+      {
         "version": "1.6.0",
         "changelog": "Please consult the releases page of the private repository for the full changelog.",
         "targetAbi": "10.11.0.0",
