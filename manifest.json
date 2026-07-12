@@ -8,6 +8,13 @@
     "category": "Download",
     "versions": [
       {
+        "version": "2.0.0",
+        "changelog": "### Added\n- Real-time updates over a single persistent SSE connection (`GET /Downloads/Stream`, one `EventSource`) that relays JellyDL's event-driven stream — no more polling, no per-tab request flood. Auto-reconnects, and surfaces a `jellydl-error` event when JellyDL is unreachable.\n\n### Changed\n- Progress is now purely server-pushed (no client-side animation); the bar updates in place.\n- PENDING/DEBRIDING items show their source URL instead of \"Unknown\", and a starting download reads \"Starting…\" instead of \"Downloading…\".\n- `/Downloads/List` is kept only as a one-shot fallback for the manual refresh button.\n\n### Removed\n- Client-side \"smooth progress\" interpolation — obsolete now that values are pushed in real time.\n- The `PollingIntervalMs` / \"UI Refresh Interval\" setting — it only drove that interpolation.\n\n### Fixed\n- Filter tabs no longer briefly flash all downloads before pruning: a single global stream (`window.__jellydlEventSource`) prevents stale duplicates when Jellyfin re-runs the page script.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/RedSkiesReaperr/JDLRepo/main/releases/JellyfinDownloader_2.0.0.zip",
+        "checksum": "ab075eb359c2c12c1e5ba01465824149"
+      },
+      {
         "version": "1.6.1",
         "changelog": "### Fixed\n- Installed version now correctly reflects the release tag instead of always showing `1.0.0.0`.\n- Release changelog is now extracted from `CHANGELOG.md` instead of a static placeholder message.",
         "targetAbi": "10.11.0.0",
